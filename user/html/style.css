@@ -1,0 +1,110 @@
+:root {
+    --black: #2D323C;
+    --neutral: #61666d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    overflow-x: hidden;
+    outline: none !important;
+}
+
+body {
+    font-family: 'Inter', sans-serif !important;
+    background-color: #fbfbfb;
+}
+
+header {
+    margin-top: 2.7em;
+}
+
+.logo a {
+    color: var(--black) !important;
+    font-weight: 700 !important;
+    font-size: 2rem!important;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+.heading h1 {
+    color: #1244A5;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.3rem;
+}
+
+.heading p {
+    margin-top: .8em;
+    font-weight: 400;
+    text-align: center;
+    color: var(--neutral);
+    font-size: 1.12rem;
+}
+
+.form-section form {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 1.5em;
+}
+
+.form-section .sub {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: #2d72f7;
+    width: 57%;
+    margin: 0 auto;
+    margin-top: 2em;
+    padding: .5em 0 .5em 0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.form-section .sub button {
+    color: #ffffff !important;
+}
+
+label {
+    color: var(--neutral)!important;
+    font-weight: 600;
+    font-size: .8rem;
+}
+
+input,
+select {
+    margin-bottom: .8em;
+    font-size: .8rem !important;
+    color: #a3a6ad;
+    font-weight: 500 !important;
+    padding: .9rem !important;
+}
+
+.opt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    text-align: center;
+    color: var(--black);
+    font-weight: 500;
+    font-size: .88rem;
+}
+
+.opt span {
+    color: #1757d4;
+    margin-left: .5em;
+}
